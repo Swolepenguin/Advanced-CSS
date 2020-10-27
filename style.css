@@ -1,0 +1,33 @@
+.container{
+    background-color: palevioletred;
+    height: 300px;
+    width: 300px;
+
+}
+.con2{
+    background-color: royalblue;
+    height: 400px;
+    width: 400px;
+}
+
+@media( max-width:680px){
+    .con2 {
+        background-color: purple;
+        height: 400px;
+        width: 400px;
+        border-radius: 300px;
+        cursor: pointer;
+}}
+
+
+
+@media(max-width:680px){
+    .container{
+        background-color:red;
+        height: 300px;
+        width: 300px;
+
+}}
+.con2:hover{
+    border: palevioletred;
+}
